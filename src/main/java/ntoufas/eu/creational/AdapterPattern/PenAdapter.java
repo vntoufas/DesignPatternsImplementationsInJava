@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.AdapterPattern;
+package ntoufas.eu.creational.AdapterPattern;
 
 public class PenAdapter implements Pen{
 

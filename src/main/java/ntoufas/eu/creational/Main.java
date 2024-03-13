@@ -1,18 +1,6 @@
-package main.java.ntoufas.eu;
+package ntoufas.eu.creational;
 
-import main.java.ntoufas.eu.BuilderPattern.Director;
-import main.java.ntoufas.eu.BuilderPattern.IPhoneBuilder;
-import main.java.ntoufas.eu.BuilderPattern.Phone;
-import main.java.ntoufas.eu.CompositePattern.Component;
-import main.java.ntoufas.eu.CompositePattern.Composite;
-import main.java.ntoufas.eu.CompositePattern.Leaf;
-import main.java.ntoufas.eu.PrototypePattern.Car;
-import main.java.ntoufas.eu.PrototypePattern.GpsSystem;
-import main.java.ntoufas.eu.PrototypePattern2.EmployeeRecord;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {

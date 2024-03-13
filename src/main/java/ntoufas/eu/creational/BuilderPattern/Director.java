@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.BuilderPattern;
+package ntoufas.eu.creational.BuilderPattern;
 
 public class Director {
 

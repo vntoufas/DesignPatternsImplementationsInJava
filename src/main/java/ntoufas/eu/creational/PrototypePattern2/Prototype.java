@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.PrototypePattern2;
+package ntoufas.eu.creational.PrototypePattern2;
 
 interface Prototype {
 

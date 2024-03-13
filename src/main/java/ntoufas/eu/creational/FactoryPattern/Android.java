@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.FactoryPattern;
+package ntoufas.eu.creational.FactoryPattern;
 
 public class Android extends OperatingSystem implements OS {
 

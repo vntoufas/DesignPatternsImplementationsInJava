@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.CompositePattern;
+package ntoufas.eu.creational.CompositePattern;
 
 import java.util.ArrayList;
 import java.util.List;

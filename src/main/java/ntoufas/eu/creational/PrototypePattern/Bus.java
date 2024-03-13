@@ -1,4 +1,4 @@
-package main.java.ntoufas.eu.PrototypePattern;
+package ntoufas.eu.creational.PrototypePattern;
 
 public class Bus extends Vehicle{
 
