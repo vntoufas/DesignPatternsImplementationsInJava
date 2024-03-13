@@ -1,4 +1,4 @@
-package ntoufas.eu.creational.AdapterPattern;
+package ntoufas.eu.structural.AdapterPattern;
 
 public class PenAdapter implements Pen{
 
