@@ -1,4 +1,4 @@
-package ntoufas.eu.creational.CompositePattern;
+package ntoufas.eu.structural.CompositePattern;
 
 public class Leaf implements Component{
 

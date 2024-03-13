@@ -1,4 +1,10 @@
-package ntoufas.eu.creational;
+package ntoufas.eu;
+
+import ntoufas.eu.creational.FactoryPattern.OS;
+import ntoufas.eu.creational.FactoryPattern.OperatingSystemFactory;
+import ntoufas.eu.structural.CompositePattern.Component;
+import ntoufas.eu.structural.CompositePattern.Composite;
+import ntoufas.eu.structural.CompositePattern.Leaf;
 
 import java.io.IOException;
 
@@ -30,25 +36,7 @@ public class Main {
         aw.setP(p);
         aw.writeAssignment("something here ... ");*/
 
-        //Composite Pattern
-        //This is used when you have a scenario when you create an object that represents a tree structure
-        //A Composite Object has another composite object as field
-        /*Component hq = new Leaf(4000, "HDD");
-        Component mouse = new Leaf(4000, "mouse");
-        Component monitor = new Leaf (4000, "Ram");
 
-        Composite ph = new Composite("Peri");
-        Composite cabinet = new Composite("Peri");
-        Composite mb = new Composite("MB");
-        Composite computer = new Composite("Computer");
-
-        mb.addComponent(mouse);
-        mb.addComponent(monitor);
-        mb.addComponent(computer);
-        mb.addComponent(mb);
-
-        computer.addComponent(ph);
-        computer.addComponent(cabinet);*/
 
 
         //Prototype Pattern
@@ -89,10 +77,35 @@ public class Main {
         e2.showRecord();*/
         //Prototype Pattern 2nd example ==  FINISH
 
-        //Structural Design patterns FINISH
 
+        // ====================================================
+        // ====================================================
+        // ============ Structural Design patterns ============
+        // ====================================================
+        // ====================================================
+        //Composite Pattern
+        //This is used when you have a scenario when you create an object that represents a tree structure
+        //A Composite Object has another composite object as field
+        /*Component hq = new Leaf(4000, "HDD");
+        Component mouse = new Leaf(4000, "mouse");
+        Component monitor = new Leaf (4000, "Ram");
 
+        Composite ph = new Composite("Peri");
+        Composite cabinet = new Composite("Peri");
+        Composite mb = new Composite("MB");
+        Composite computer = new Composite("Computer");
 
+        mb.addComponent(mouse);
+        mb.addComponent(monitor);
+        mb.addComponent(computer);
+        mb.addComponent(mb);
+
+        computer.addComponent(ph);
+        computer.addComponent(cabinet);*/
 
     }
+
+
+
+
 }
